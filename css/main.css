@@ -1,0 +1,21 @@
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:100%;
+    max-height:100%;
+}
+
+.box1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.shoeImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
