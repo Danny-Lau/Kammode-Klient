@@ -1,10 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Kammode</title>
+
 </head>
 <body>
+
+
+    <div id="nav"><a href="Index.html"><img class="imgPage" src="logo.png"/></a>
+
+
+        <div id="nav-wrapper">
+
+            <ul>
+                <li><a href="#">More</a>
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Contact information</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Partnerships</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+<div class="leftBox">
+    <div class="search-container">
+        <input type="text" placeholder="Search">
+        <button type="submit" ></button>
+    </div>
+
+    <P></P>
+    <p><b>Farve:</b></p>
+    <form action="">
+        <input type="radio" name="color"> Alle<br>
+        <input type="radio" name="color"> Blå<br>
+        <input type="radio" name="color"> Grøn<br>
+        <input type="radio" name="color"> Gul<br>
+        <input type="radio" name="color"> Lilla<br>
+        <input type="radio" name="color"> Sort<br>
+        <input type="radio" name="color"> Hvid<br>
+    </form>
+
+
+    <P></P>
+    <p><b>Mærke:</b></p>
+    <form action="">
+        <input type="radio" name="Brand"> Alle<br>
+        <input type="radio" name="Brand"> Hugo Boss<br>
+        <input type="radio" name="Brand"> Calvein Klein<br>
+        <input type="radio" name="Brand"> H&M<br>
+        <input type="radio" name="Brand"> Kammode<br>
+        <input type="radio" name="Brand"> Jack&jones<br>
+        <input type="radio" name="Brand"> Ralph Laurent<br>
+    </form>
+
+
+    <div data-role="rangeslider">
+        <p></p>
+        <label>Pris:</label>
+        <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000">
+    </div>
+    <input type="submit" data-inline="true" value="Vælg">
+
+</div>
+
+    <div class="normal-page-container">
+        <div class="box">
+            <a href = "pantsPage.html"><img class="shoeImg" src="sko.png"/></a>
+            <p class="text" >DKK 199,95 </p>
+        </div>
+
+        <div class="box">
+            <a href = "pantsPage.html"><img class="shoeImg" src="sko.png"/></a>
+            <p class="text" >DKK 199,95 </p>
+        </div>
+
+        <div class="box">
+            <a href = "pantsPage.html"><img class="shoeImg" src="sko.png"/></a>
+            <p class="text" >DKK 199,95 </p>
+        </div>
+    </div>
 
 </body>
 </html>

@@ -5,7 +5,15 @@
     margin-right: auto;
     max-width:100%;
     max-height:100%;
+
+}
+
+.imgPage {
+    display: block;
+    width: 150px;
+    height: 75px;
     float: left;
+
 }
 
 .page-container{
@@ -13,6 +21,18 @@
     padding-left: 100px;
     padding-right: 70px;
 }
+
+.normal-page-container{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.text{
+    text-align: center;
+
+}
+
 .box {
     width: 300px;
     height: 150px;
@@ -20,6 +40,15 @@
     float: left;
     margin-left: 35px;
 }
+
+.leftBox {
+    float: left;
+    margin-left: 35px;
+    padding-top: 30px;
+}
+
+
+
 
 .shoeImg{
     display: block;
@@ -29,16 +58,78 @@
     max-height: 100%;
 }
 
-.nav{
-    background-color: #222;
+
+#nav{
+    Background-color: black;
+
+
+
 }
 
 #nav-wrapper{
     width: 960px;
+    height: 75px;
     margin: 0 auto;
     text-align: right;
 
 }
 
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    posistion: relative;
+}
 
-https://www.youtube.com/watch?v=PN1iMaVfzfQ
+#nav ul li{
+    display: inline-block;
+    background-color: black;
+    height: 75px;
+    width: 100px;
+    text-align: center;
+}
+
+#nav ul li:hover{
+    background-color: black;
+
+}
+
+#nav ul li a,visited {
+    color:#ccc;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#nav ul li a:hover{
+    color: #ccc;
+    text-decoration: none;
+}
+#nav ul li:hover ul{
+    display: block;
+}
+
+#nav ul ul{
+    display: none;
+    position: absolute;
+    background-color: #e3e3e3;
+
+
+}
+
+#nav ul ul li{
+    display: block;
+    text-align: left;
+}
+
+#nav ul ul li a,visited{
+    color: #ccc;
+}
+
+#nav ul ul li a:hover{
+    color: #e95f5c;
+}
+
+
+
+
