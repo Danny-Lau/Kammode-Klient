@@ -28,6 +28,10 @@
     padding-right: 50px;
 }
 
+.my-item-page-container{
+    margin-top: 50px;
+}
+
 .text{
     text-align: center;
 
@@ -41,13 +45,44 @@
     margin-left: 35px;
 }
 
+.selectItemBox{
+    width: 400px;
+    height: 250px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.my-items-img{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 35px;
+}
+
+.my-items-page{
+    height: 275px;
+    margin-left: 35px;
+}
+
+.line{
+    border: 1px solid black;
+}
+
+.myItemBox{
+    height: 250px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 225px;
+
+}
+
 .leftBox {
     float: left;
     margin-left: 35px;
     padding-top: 30px;
 }
-
-
 
 
 .shoeImg{
@@ -56,14 +91,51 @@
     margin-right: auto;
     max-width: 100%;
     max-height: 100%;
+
 }
+
+.dropdown{
+    margin-top: 150px;
+    font-size: medium;
+
+
+
+}
+
+.information{
+    margin-top: 60px;
+    margin-left: 150px;
+
+}
+
+.button{
+    background-color: black;
+    color: white;
+    border: white;
+    height: 50px;
+
+}
+.button:hover{
+    color: #e95f5c;
+
+}
+
+.sum-up{
+    float: right;
+    margin-right: 250px;
+}
+
+
+
+
+
+
+
+
 
 
 #nav{
     Background-color: black;
-
-
-
 }
 
 #nav-wrapper{
