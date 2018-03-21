@@ -15,6 +15,13 @@
     float: left;
 
 }
+.navImg{
+    padding-left: 150px;
+    width: 30%;
+    height: 100px;
+
+
+}
 
 .page-container{
     padding-top: 50px;
@@ -61,6 +68,7 @@
     margin-left: 35px;
 }
 
+
 .my-items-page{
     height: 275px;
     margin-left: 35px;
@@ -98,8 +106,6 @@
     margin-top: 150px;
     font-size: medium;
 
-
-
 }
 
 .information{
@@ -124,6 +130,120 @@
     float: right;
     margin-right: 250px;
 }
+.navCheck{
+    width: auto;
+    height: 100px;
+    margin-left: 10px;
+    text-align: left;
+
+}
+
+.viewBasket{
+    margin-top: 5px;
+    margin-right: 30px;
+    width: 700px;
+    height: auto;
+    border: 1px solid black;
+    float: right;
+}
+
+.textCheckout{
+     word-spacing: 50px;
+ }
+
+.innerbox {
+    width: 600px;
+    height: 200px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+.imgCheck{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: auto;
+    float: left;
+
+}
+
+.checkoutBox{
+    height: 250px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+
+}
+
+.textCheckoutBox{
+    word-spacing: 90px;
+}
+
+.sumUp{
+    width: 300px;
+    height: auto;
+    float: right;
+}
+
+.shopVidereBtn{
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.betalBtn{
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.underSumUp{
+    width: 700px;
+    height: 200px;
+}
+
+.boxCheck{
+    width: 175px;
+    height: 150px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 50px;
+
+}
+
+.footer{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    Background-color: Black;
+    color: white;
+}
+
+.searchBoxCheck{
+    border: 1px solid white;
+    color:white;
+    background-color: black;
+    width: 200px;
+    text-align: center;
+}
+
+.footerText{
+    margin-left: 50px;
+}
+
+.footerBtn{
+    float: right;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    margin-right: 50px;
+}
+
 
 
 
@@ -139,8 +259,8 @@
 }
 
 #nav-wrapper{
-    width: 960px;
-    height: 75px;
+    width: auto;
+    height: 100px;
     margin: 0 auto;
     text-align: right;
 
@@ -151,12 +271,13 @@
     padding: 0;
     margin: 0;
     posistion: relative;
+
 }
 
 #nav ul li{
     display: inline-block;
     background-color: black;
-    height: 75px;
+    height: 50px;
     width: 100px;
     text-align: center;
 }
