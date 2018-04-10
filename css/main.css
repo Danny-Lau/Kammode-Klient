@@ -20,13 +20,6 @@
     max-height: 100%;
 }
 
-.logoIndex{
-    display: block;
-   
-   
-    max-width:40%;
-    max-height:40%;
-}
 
 .page-container{
     padding-top: 50px;
@@ -184,17 +177,28 @@
     float: right;
 }
 
-.shopVidereBtn{
+.continueShoppingBtn{
     float: left;
     margin-bottom: 10px;
     margin-left: 10px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: black;
+    color: white;
+}
+
+.continueShoppingBtn:hover{
+    color: #e95f5c;
 }
 .betalBtn{
     float: right;
     margin-bottom: 10px;
     margin-right: 10px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: black;
+    color: white;
+}
+
+.betalBtn:hover{
+    color: #e95f5c;
+
 }
 .underSumUp{
     width: 700px;
@@ -211,13 +215,14 @@
 }
 
 .footer{
-    position: absolute;
+    position:fixed;
     right: 0;
     left: 0;
     bottom: 0;
     width: 100%;
     Background-color: Black;
     color: white;
+    margin-top: 1300px;
 }
 
 .searchBox{
@@ -254,9 +259,24 @@
 .charityImg{
     display: block;
     float: left;
-    max-width: 20%;
-    max-height:20%;
+    max-width: 25%;
+    max-height:25%;
     margin-top: 70px;
+    margin-left: 100px;
+}
+.logoIndexImg{
+    max-width: 35%;
+    max-height: 35%;
+}
+
+.bestSellerImg {
+    max-width: 25%;
+    max-height: 25%;
+    margin-top: 70px;
+}
+
+.endingDiv{
+    height: 220px;
 }
 
 
