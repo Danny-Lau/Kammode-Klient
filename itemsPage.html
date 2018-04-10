@@ -12,84 +12,89 @@
 <body>
 
 
-    <div id="nav"><a href="Index.html"><img class="imgPage" src="logo.png"/></a>
+<div id="nav">
+    <div id="nav-wrapper">
+        <ul>
+            <li><a href="women">WOMEN</a></li>
+            <li><a href="men">MEN</a></li>
+            <li><a href="children">CHILDREN</a></li>
 
+            <a href="Index.html"><img class="navImg" src="picture/logo-1.png"/></a>
 
-        <div id="nav-wrapper">
+            <input class="searchBoxNav" type="text" placeholder="SEARCH">
+            <li><a href="about">ABOUT</a></li>
+            <li><a href="q&a">Q&A</a></li>
+            <li><a href="help">HELP</a></li>
 
-            <ul>
-                <li><a href="#">More</a>
-                    <ul>
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Contact information</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Partnerships</a></li>
-
-                    </ul>
-                </li>
-            </ul>
-
-        </div>
-
+            <li><a href="login">Login</a>
+        </ul>
     </div>
+</div>
+
 
 <div class="leftBox">
     <div class="search-container">
         <input type="text" placeholder="Search">
-        <button type="submit" ></button>
     </div>
 
     <P></P>
-    <p><b>Farve:</b></p>
+    <p><b>Color:</b></p>
     <form action="">
-        <input type="radio" name="color"> Alle<br>
-        <input type="radio" name="color"> Blå<br>
-        <input type="radio" name="color"> Grøn<br>
-        <input type="radio" name="color"> Gul<br>
-        <input type="radio" name="color"> Lilla<br>
-        <input type="radio" name="color"> Sort<br>
-        <input type="radio" name="color"> Hvid<br>
+        <input type="radio" name="color"> &nbsp;All<br>
+        <input type="radio" name="color"> &nbsp;Blue<br>
+        <input type="radio" name="color"> &nbsp;Green<br>
+        <input type="radio" name="color"> &nbsp;Yellow<br>
+        <input type="radio" name="color"> &nbsp;Purple<br>
+        <input type="radio" name="color"> &nbsp;Black<br>
+        <input type="radio" name="color"> &nbsp;White<br>
     </form>
 
 
     <P></P>
-    <p><b>Mærke:</b></p>
+    <p><b>Brands:</b></p>
     <form action="">
-        <input type="radio" name="Brand"> Alle<br>
-        <input type="radio" name="Brand"> Hugo Boss<br>
-        <input type="radio" name="Brand"> Calvein Klein<br>
-        <input type="radio" name="Brand"> H&M<br>
-        <input type="radio" name="Brand"> Kammode<br>
-        <input type="radio" name="Brand"> Jack&jones<br>
-        <input type="radio" name="Brand"> Ralph Laurent<br>
+        <input type="radio" name="Brand"> &nbsp;All<br>
+        <input type="radio" name="Brand"> &nbsp;Hugo Boss<br>
+        <input type="radio" name="Brand"> &nbsp;Calvein Klein<br>
+        <input type="radio" name="Brand"> &nbsp;H&M<br>
+        <input type="radio" name="Brand"> &nbsp;Kammode<br>
+        <input type="radio" name="Brand"> &nbsp;Jack&jones<br>
+        <input type="radio" name="Brand"> &nbsp;Ralph Laurent<br>
     </form>
 
 
     <div data-role="rangeslider">
         <p></p>
-        <label>Pris:</label>
+        <label>Price:</label>
         <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000">
     </div>
-    <input type="submit" data-inline="true" value="Vælg">
+    <input type="submit" data-inline="true" value="Submit">
 
 </div>
 
     <div class="normal-page-container">
         <div class="box">
-            <a href = "selectItemPage.html"><img class="shoeImg" src="sko.png"/></a>
+            <a href = "selectItemPage.html"><img class="itemsImg" src="picture/shoe.png"/></a>
             <p class="text" >DKK 199,95 </p>
         </div>
 
         <div class="box">
-            <a href = "selectItemPage.html"><img class="shoeImg" src="sko.png"/></a>
+            <a href = "selectItemPage.html"><img class="itemsImg" src="picture/Sweater.png"/></a>
             <p class="text" >DKK 199,95 </p>
         </div>
 
         <div class="box">
-            <a href = "selectItemPage.html"><img class="shoeImg" src="sko.png"/></a>
+            <a href = "selectItemPage.html"><img class="itemsImg" src="picture/Hoodie.png"/></a>
             <p class="text" >DKK 199,95 </p>
         </div>
     </div>
+
+<div class="footer">
+    <h6 class="footerText">NEWSLETTER&nbsp&nbsp<input class="searchBox"placeholder="ENTER YOUR E-MAIL">
+        <button class="footerBtn" type="button" >CONTACT</button></h6>
+
+</div>
+
 
 </body>
 </html>
