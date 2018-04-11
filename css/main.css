@@ -260,9 +260,9 @@
     display: block;
     float: left;
     max-width: 25%;
-    max-height:25%;
+    height:200px;
     margin-top: 70px;
-    margin-left: 100px;
+    margin-left: 130px;
 }
 .logoIndexImg{
     max-width: 35%;
@@ -271,7 +271,7 @@
 
 .bestSellerImg {
     max-width: 25%;
-    max-height: 25%;
+    height: 200px ;
     margin-top: 70px;
 }
 
