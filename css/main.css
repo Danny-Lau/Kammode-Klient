@@ -302,7 +302,7 @@
 
 #nav ul{
     list-style-type: none;
-    posistion: relative;
+    position: relative;
 
 }
 
@@ -320,7 +320,7 @@
 
 }
 
-#nav ul li a,visited {
+#nav ul li a, visited {
     color:#ccc;
     display: block;
     padding: 15px;
@@ -362,57 +362,51 @@
 
 
 
-.outsideSlide{
+#outsideSlide{
+    width: 600px;
     overflow: hidden;
-    max-width: 200px;
+
 }
-.slideShow{
+#slideShow{
     position: relative;
-    width:600px;
+    width: 2400px;
     animation-name: Charity;
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
-.slideShow img{
-    float: left;
-    width: 200px;
+#slideShow img{
+
+    float:left;
 }
 
 @keyframes Charity{
-    0%{
-        left:0px;
-    }
-    15%{
+    0% {
         left:0px;
     }
     20%{
-        left:-200px;
+        left:0px;
     }
-    35%{
-        left:-200px;
-    }
-    40%{
-        left:-400px;
-    }
-    55%{
-        left:-400px;
-    }
-    60%{
+    25%{
         left:-600px;
+    }
+    45%{
+        left:-600px;
+    }
+    50%{
+        left:-1200px;
+    }
+    70%{
+        left:-1200px;
     }
     75%{
-        left:-600px;
-    }
-    80%{
-        left:-800px;
+        left:-1800px;
     }
     95%{
-        left:-800px;
+        left:-1800px;
     }
-    100% {
-        left: -00px;
+    1000% {
+        left: -2400px;
     }
-
 }
 
 
